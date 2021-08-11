@@ -6,7 +6,7 @@ pipeline {
         }
     }
 
-    enviroment {
+    environment {
         registry = "astoiculescu/simple-java-maven-app"
         registryCredential = 'Docker-Hub'
     }
